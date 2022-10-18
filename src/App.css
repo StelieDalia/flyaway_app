@@ -109,7 +109,15 @@
     width: 15vw;
     height: 5vh;
     margin-left: 160px;
-   
+  }
+  .plany{
+    width: 60px;
+    
+    transform: translate(10px, -80px);
+  }
+  .vols a{
+    text-decoration: none;
+    color: white;
   }
 }
 

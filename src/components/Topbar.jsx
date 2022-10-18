@@ -9,7 +9,7 @@ export default Topbar => {
 
     <div className='Topbar'>
 
-      <h2>Se connecter</h2>
+      <h3>Se connecter</h3>
       <Menu>
         <Link to="/">Acceuil</Link>
         <Link to="/Reserve">Reservation</Link>

@@ -8,6 +8,7 @@ import aviondeux from '../assets/aviondeux.jpeg';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import plane from '../assets/plane.png';
+import {Link}  from 'react-router-dom'
 
 
 
@@ -50,7 +51,7 @@ export default function RowRadioButtonsGroup() {
           <TextField className='fd' id="standard-basic" label="Date de départ" variant="standard" />
           <TextField className='fd' id="standard-basic" label="Date de d'arrivée" variant="standard" />
         </div>
-        <button className='vols'>Vols</button>
+        <button className='vols'><Link to="/Vols">Vols</Link></button>
       </div>
       
     </Box>
