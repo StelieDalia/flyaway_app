@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default  () => {
   return (
 
-    <div className='Nav'>
+    <div className='Topbar'>
 
       <h2>Nos vols</h2>
       <Menu>

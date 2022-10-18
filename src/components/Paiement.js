@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import Ticket from './Ticket'
-import { Routes, Route } from "react-router-dom";
+// import Ticket from './Ticket'
+// import { Routes, Route } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import '../App.css'
 import { Button } from './Button';
