@@ -1,0 +1,163 @@
+@media only screen and (max-width: 600px) {
+    .row{
+      display: flex;
+    }
+    .justyfie{
+      justify-content: space-around;
+    }
+    .destination{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 8vw;
+      }
+      /* .ligne{
+        height: 12vh;
+        width: 50vw;
+        background-color: black;
+      } */
+      .align{
+        align-items: center;
+      }
+      
+      .billet{
+        background-color: white;
+        height: 56vh;
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 10vw;
+        margin-top: 10vw;
+        font-size: 2.5vw;
+      }
+
+      .buttons{
+        width: 60vw;
+        height: 5vh;
+        background-color: #1E4D9B;
+        border-radius: 10vw 0px 10vw 0px ;
+        margin-left: 22vw;
+        font-size: 7vw;
+        margin-top: 17vw;
+        /* margin-bottom: 10vw; */
+        border: none;
+      }
+      .ecrit-button{
+        background-color: #1E4D9B;
+        color: white;
+        text-decoration: none;
+        font-size: 4.5vw;
+      }
+      .ecrit-buttons{
+        background-color: #1E4D9B;
+        color: white;
+        text-decoration: none;
+        font-size: 4.5vw;
+      }
+      .numero-du-vol{
+        justify-content: space-between;
+        margin-left: 5vw;
+      }
+      .date{
+        margin-left: 5vw;
+      }
+      .classe{
+        margin-left: -2vw;
+      }
+      .passager{
+        margin-left: 5vw;
+        font-size: 4vw;
+        letter-spacing: 1vw;
+      }
+      .passager2{
+        text-align: center;
+        font-size: 4vw;
+        letter-spacing: 1vw;
+      }
+      .area{
+        height: 5vh;
+        width: 10vw;
+        background: url(../images/icones/clenn.jpg);
+        background-size: cover;
+        border-radius: 5vw ;
+
+      }
+      .area2{
+        height: 5vh;
+        width: 10vw;
+        background: url(../images/icones/leila.jpeg);
+        background-size: cover;
+        border-radius: 5vw ;
+
+      }
+      .passager p{
+        margin-left: 5vw;
+      }
+      .area-bleu{
+        height: 5vh;
+        width: 9vw;
+        background-color:#C8D4E6;
+        border-radius: 5vw ;
+
+      }
+      .rond-bleu{
+        position: absolute;
+        left: -5vw;
+      }
+      .rond-bleu2{
+        position: absolute;
+        right: 0.5vw;
+      }
+      .code-barre{
+        height: 5vh;
+        width: 80vw;
+        background: url(../images/icones/code\ bar.png);
+        border-radius: 0.1vw ;
+        margin-top: 15vw;
+      }
+      .code-barre-bleu{
+        
+          height: 2vh;
+          width: 80vw;
+          background-color: rgb(230, 230, 230);
+          border-radius: 0.1vw ;
+          margin-top: 8vw;border-radius: 2vw;
+      }
+      .code-barre-bleu2{
+        
+        height: 2vh;
+        width: 70vw;
+        margin: auto;
+        background-color: rgb(230, 230, 230);
+        border-radius: 0.1vw ;
+        margin-top: -1vw;border-radius: 2vw;
+    }
+    .code-barre-bleu3{
+        
+      height: 2vh;
+      width: 60vw;
+      margin: auto;
+      background-color: rgb(230, 230, 230);
+      border-radius: 0.1vw ;
+      margin-top: -1vw;border-radius: 2vw;
+  }
+  .ombre{
+    margin-top: -10vw;
+  }
+  .Lignes{
+    margin-left: -10vw;
+  }
+  .hr{
+    height: 0.1vh;
+    width: 10vw;
+    background-color: black;
+    margin: 1vw;
+    margin-left: 2vw;
+  }
+  .destinations{
+    margin-left: -1vw;
+  }
+
+
+
+
+    }

@@ -4,6 +4,8 @@ import Home from './components/Home'
 import Reserve from './components/Reserve'
 import Vols from './components/Vols'
 import Topbar from './components/Topbar'
+import Paiement from './components/Paiement'
+import Ticket from './components/Ticket'
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
         <Route  path="/" element={<Home/>} />
         <Route  path="/reserve" element={<Reserve/>} />
         <Route  path="/vols" element={<Vols/>} />
+        <Route path="/paiement" element={<Paiement/>} />
+        <Route path="/ticket" element={<Ticket />} />
       </Routes>
     </div>
   );
