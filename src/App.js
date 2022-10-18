@@ -6,8 +6,8 @@ import Vols from './Components/Vols'
 function App() {
   return (
     <>
-    <Topbar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-    <Vols />
+      <Topbar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+      <Vols />
     </>
   );
 }
