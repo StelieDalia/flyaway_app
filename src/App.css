@@ -1,2 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.date-expiration{
+  display: flex;
+}
+
+.App{
+  width: 100vw;
+  /* background-color: blue; */
+}
+
+.date-expirat1{
+  width: 40vw;
+  justify-content: space-around;
+  color: black;
+}
+.box{
+  width: 80vw;
+  /* background-color: red; */
+}
+@media only screen and (max-width: 600px) {
+  *{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #C8D4E6; */
+    color: black;
+  }
+  body{
+    background-color: #C8D4E6;
+  }
+  .row{
+    display: flex;
+  }
+  .App{
+    width: 100vw;
+    /* background-color: blue; */
+  }
+  h2{
+    text-align: center;
+    margin-right: 20vw;
+  }
+  .date-expirat0{
+    transform: translate(0px, 5vw);
+  }
+  .date-expirat1{
+    width: 30vw;
+    transform: translate(0px, 20vw);
+  }
+  .date-expirat2{
+    width: 35vw;
+    transform: translate(0px, 30vw);
+  }
+  .date-expirat3{
+    width: 35vw;
+    transform: translate(0px, 30vw);
+  }
+  .date-expirat4{
+    transform: translate(0px, 40vw);
+  }
+  .date-expirat5{
+    transform: translate(0px, 55vw);
+  }
+ 
+ 
+
+  .image-logo{
+    margin-right: 5vw;
+  }
+
+  .date-expiration{
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+  }
+  
+  
+  .standard-basic{
+    width: 80vw;
+  }
+  .form{
+    width: 80vw;
+    margin:auto;
+    height: 30vh;
+  }
+  .button{
+    width: 60vw;
+    height: 5vh;
+    background-color: #1E4D9B;
+    border-radius: 10vw 0px 10vw 0px ;
+    margin-left: 8vw;
+    font-size: 5vw;
+    margin-top: 70vw;
+    z-index: 2;
+    border: none;
+  }
+
+  .ecrit-button{
+    background-color: #1E4D9B;
+    color: white;
+    text-decoration: none;
+  }
+  .ecrit-buttons{
+    background-color: #1E4D9B;
+    color: white;
+    text-decoration: none;
+    font-size: 7vw;
+    margin-left: -12vw;
+  }
+  .icone-avion{
+    margin-top: 2vw;
+  }
+  .nb{
+    position: absolute;
+    bottom: 15vw;
+    text-align: center;
+    right: 5vw; 
+  }
 
 
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+}
