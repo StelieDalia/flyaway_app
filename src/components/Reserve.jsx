@@ -9,10 +9,13 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import plane from '../assets/plane.png';
 import {Link}  from 'react-router-dom'
+import './Reserve.css';
 
 
 
-export default function RowRadioButtonsGroup() {
+export default function  RowRadioButtonsGroup() {
+  
+
   return (
     <FormControl>
         <img  className='second' src={aviondeux} alt="image"></img>
@@ -48,8 +51,8 @@ export default function RowRadioButtonsGroup() {
         </div>
         <img className='planes' src={plane} alt="image"></img>
         <div className='inputstwo'>
-          <TextField className='fd' id="standard-basic" label="Date de départ" variant="standard" />
-          <TextField className='fd' id="standard-basic" label="Date de d'arrivée" variant="standard" />
+          
+       
         </div>
         <button className='vols'><Link to="/Vols">Vols</Link></button>
       </div>
