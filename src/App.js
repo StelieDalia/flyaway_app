@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Topbar from './Components/Topbar';
-import Vols from './Components/Vols'
+import Topbar from './Components/Topbar/Topbar';
+import Vols from './Components/Vols/Vols'
 
 function App() {
   return (

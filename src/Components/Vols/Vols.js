@@ -4,6 +4,7 @@ import Turkish_Airlines from './images/Turkish_Airlines.png'
 import logo from './images/logo.png'
 import ethiopian from './images/ethiopian.png'
 import airfrance from './images/airfrance.png'
+import './Vols.css';
 
 
 function BgColorExample() {
