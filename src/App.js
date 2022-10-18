@@ -6,6 +6,7 @@ import Vols from './components/Vols'
 import Topbar from './components/Topbar'
 import Paiement from './components/Paiement'
 import Ticket from './components/Ticket'
+import Enregistrement from './components/Enregistrement'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route  path="/vols" element={<Vols/>} />
         <Route path="/paiement" element={<Paiement/>} />
         <Route path="/ticket" element={<Ticket />} />
+        <Route path="/enregistrement" element={<Enregistrement />} />
       </Routes>
     </div>
   );
