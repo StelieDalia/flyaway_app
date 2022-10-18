@@ -10,16 +10,22 @@ export default props => {
             <h2>Nos vols</h2>
             <Menu>
                 <a className="menu-item" href="/">
-                Home
+                Accueil
                 </a>
-                <a className="menu-item" href="/salads">
-                Salads
+                <a className="menu-item" href="/Reservation">
+                Reservation
                 </a>
-                <a className="menu-item" href="/pizzas">
-                Pizzas
+                <a className="menu-item" href="/Nos vols">
+                Nos vols
                 </a>
-                <a className="menu-item" href="/desserts">
-                Desserts
+                <a className="menu-item" href="/Enregistrement">
+                Enregistrement
+                </a>
+                <a className="menu-item" href="/Paiement">
+                Paiement
+                </a>
+                <a className="menu-item" href="/Ticket">
+                Ticket
                 </a>
             </Menu>
         </div>
