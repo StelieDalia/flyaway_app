@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import airplane from './images/airplane.jpg'
+import airplane from './images/airplane.png'
 import Turkish_Airlines from './images/Turkish_Airlines.png'
 import logo from './images/logo.png'
 import ethiopian from './images/ethiopian.png'

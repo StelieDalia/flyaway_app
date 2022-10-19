@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px){
     .App {
         background-color: #C8D4E6;
-        height: 100vh;
+        
     }
     .formulaire{
         height: 90vh;
@@ -16,9 +16,33 @@
       .logo{
         height: 10vw;
       }
-      .paiement{
+
+      .logo1{
+        height: 6vw;
+      }
+
+      .paie1 .logo{
+        margin-left: 30%;
+        margin-top: -34%;
+      }
+      
+      .paie{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
+      }
+
+      .paie1{
+        margin-left: 18%;
+        margin-top: 3%;
+      }
+
+      .paies{
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .paies .logo {
+        margin-top: 25%;
+        margin-left: -95%; 
       }
 }

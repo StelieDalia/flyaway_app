@@ -39,6 +39,9 @@
     text-align: center;
     margin-right: 20vw;
   }
+  .date-expiration .date{
+    margin: 10vw;
+  }
   .date-expirat0{
     transform: translate(0px, 5vw);
   }
@@ -88,9 +91,7 @@
     background-color: #1E4D9B;
     border-radius: 10vw 0px 10vw 0px ;
     margin-left: 8vw;
-    font-size: 5vw;
     margin-top: 70vw;
-    z-index: 2;
     border: none;
   }
 
@@ -98,21 +99,17 @@
     background-color: #1E4D9B;
     color: white;
     text-decoration: none;
+    font-size: 6vw;
+    margin-left: -15vw;
   }
-  .ecrit-buttons{
-    background-color: #1E4D9B;
-    color: white;
-    text-decoration: none;
-    font-size: 7vw;
-    margin-left: -12vw;
-  }
+ 
   .icone-avion{
     margin-top: 2vw;
   }
   .nb{
     position: absolute;
-    bottom: 15vw;
+    bottom: 1vw;
     text-align: center;
-    right: 5vw; 
+    right: 15vw; 
   }
   }

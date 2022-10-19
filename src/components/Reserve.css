@@ -36,7 +36,7 @@
     display:flex;
     justify-content: space-around;
     width: 100vw;
-    margin-top: 15px;
+    margin-top: 5px;
   }
   .vols{
     width: 40vw;
@@ -57,11 +57,20 @@
   .planes{
     width: 15vw;
     height: 5vh;
-    margin-left: 160px;
+    margin-left: 170px;
   }
   
   .vols a{
     text-decoration: none;
     color: white;
+  }
+  .date{
+    border: none;
+    border-radius:10px,
+  }
+
+  .parag{
+    font-weight:0;
+    color: grey;
   }
 
