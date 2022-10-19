@@ -76,42 +76,42 @@ export default function BasicTextFields() {
         aria-labelledby="demo-row-radio-buttons-group-label"
         name="row-radio-buttons-group"
       >
-       <div>
-        <div>
+       
+        
           <div>
-            <FormControlLabel value="mobile " control={<Radio />} label="Mobile Money" />
+            <div>
+              <FormControlLabel value="mobile " control={<Radio />} label="Mobile Money" />
+            </div>
+            <div  className='paie'>
+              <img src={airtel}  alt="" className='logo' />
+              <img src={moov} alt="" className='logo' />
+              <img src={orange} alt="" className='logo'/>
+            </div>
+          </div>
+            
+          <div className='paies'>
+            <div>
+              <FormControlLabel value="paypal" control={<Radio />} label="PayPal"  />
+            </div>
+            <div>
+              <img src={paypal} alt="" className='logo' />
+            </div>
           </div>
           <div>
-            <img src={airtel}  alt="" className='logo' />
-            <img src={moov} alt="" className='logo' />
-            <img src={orange} alt="" className='logo'/>
-          </div>
-        </div>
-        <div>
-          <div>
-          <FormControlLabel value="paypal" control={<Radio />} label="PayPal"  />
-          </div>
-          <div>
-            <img src={paypal} alt="" className='logo' />
-          </div>
-        </div>
-        <div >
-          <div>
-          <FormControlLabel value="carte" control={<Radio />} label="Carte de crédit/débit" />
-          </div>
-          <div><Link to="/Paiement">
-            <img src={Visa} alt="" className='logo' />
-            <img src={mastercard} alt="" className='logo' />
+            <div>
+            <FormControlLabel value="carte" control={<Radio />} label="Carte de crédit/débit" />
+            </div>
+            <div className='paie1'><Link to="/Paiement">
+              <img src={Visa} alt="" className='logo1' />
+              <img src={mastercard} alt="" className='logo' />
             </Link>
+            </div>
           </div>
-        </div>
-      </div>
+      
       </RadioGroup>
     </FormControl>
     
     </Box>
-    <p className='texte'>NB: Tout billet acheté est non remboursable</p>
-    
    </div>
   
   );

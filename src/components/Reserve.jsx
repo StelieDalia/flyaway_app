@@ -51,8 +51,14 @@ export default function  RowRadioButtonsGroup() {
         </div>
         <img className='planes' src={plane} alt="image"></img>
         <div className='inputstwo'>
-          
-       
+          <div>
+            <h6 classname='parag'>Date de départ</h6>
+            <input classname='date' type='date'></input>
+          </div>
+          <div>
+            <h6 classname='parag'>Date de retour</h6>
+            <input classname='date' type='date'></input>
+          </div>
         </div>
         <button className='vols'><Link to="/Vols">Vols</Link></button>
       </div>

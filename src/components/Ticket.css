@@ -19,6 +19,12 @@
       .align{
         align-items: center;
       }
+      .logo{
+        height: 3vh;
+      }
+      .icone-avion{
+        margin-top: 10vw;
+      }
       
       .billet{
         background-color: white;
@@ -46,6 +52,7 @@
         color: white;
         text-decoration: none;
         font-size: 4.5vw;
+        margin-left: 5vw;
       }
       .ecrit-buttons{
         background-color: #1E4D9B;

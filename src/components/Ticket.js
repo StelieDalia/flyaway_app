@@ -70,8 +70,8 @@ export const Ticket = () => {
 
       <button className='buttons row align justyfie'>
         <Link className='ecrit-button' to="/Telechargement">Télécharger</Link>
-        <div className="icone-avion">
-            <img src={telechargement} alt="Nike" className="logo" style={{width: 30}}/>
+        <div className="icone-avions">
+            <img src={telechargement} alt="Nike" className="logo" style={{width: 15}}/>
         </div>
       </button>
     </div>

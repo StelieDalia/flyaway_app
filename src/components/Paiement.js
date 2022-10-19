@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { Link } from "react-router-dom";
 import './Paiement.css';
+import image from "../images/icones/icone-avions.png"
+
 
 export default function BasicTextFields() {
   return (
@@ -19,18 +21,21 @@ export default function BasicTextFields() {
         <TextField className='date-expirat0' id="standard-basic" label="Numero de la carte" variant="standard" placeholder='' />
         <TextField className='date-expirat1' id="standard-basic" label="Type de carte" variant="standard" placeholder='' />
         <div className='date-expiration'>
-          <TextField className='date-expirat2' id="standard-basic" label="Standard" variant="standard" placeholder='' />
-          <TextField className='date-expirat3' id="standard-basic" label="Standard" variant="standard" placeholder='' />
+          <input classname='date' type='date'></input>
         </div>
-        <TextField className='date-expirat4' id="standard-basic" label="Standard" variant="standard" placeholder='' />
-        <TextField className='date-expirat5' id="standard-basic" label="Standard" variant="standard" placeholder='' />
+        <TextField className='date-expirat4' id="standard-basic" label="Code de sécurité" variant="standard" placeholder='' />
+        <TextField className='date-expirat5' id="standard-basic" label="Nom du titulaire de la carte" variant="standard" placeholder='' />
       </Box>
-      <p className='nb'>NB: tous billets acheté est non ramboursable</p>
+      <p className='nb'>NB: tout billet acheté est non ramboursable</p>
 
-       <button className='button'>
+       <button className='button row justyfie align'>
         <a href="/">
-          <Link className='ecrit-button' to="/Ticket">Valider</Link>
+          <div className="icone-avion">
+            <img src={image} />
+          </div>
+          
         </a>
+        <Link className='ecrit-button' to="/Ticket">Valider</Link>
       </button>
     
     </div>
