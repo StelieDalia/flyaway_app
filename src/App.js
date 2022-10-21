@@ -7,6 +7,8 @@ import Topbar from './components/Topbar'
 import Paiement from './components/Paiement'
 import Ticket from './components/Ticket'
 import Enregistrement from './components/Enregistrement'
+import Inscription from './components/Inscription'
+import Connexion from './components/Connexion'
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path="/paiement" element={<Paiement/>} />
         <Route path="/ticket" element={<Ticket />} />
         <Route path="/enregistrement" element={<Enregistrement />} />
+        <Route path="/connexion" element={<Connexion />} />
+        <Route path="/inscription" element={<Inscription />} />
       </Routes>
     </div>
   );
