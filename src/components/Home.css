@@ -20,7 +20,9 @@
     /* margin-bottom: 10vw; */
     border: none;
   }
-
+.fa-plane-departure{
+  transform: translateX(-4vw);
+}
   .btns a{
     text-decoration: none;
     color: white;

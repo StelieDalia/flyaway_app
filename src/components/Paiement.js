@@ -33,7 +33,8 @@ export default function BasicTextFields() {
           placeholder=""
         />
         <div className="date-expiration">
-          <input className="date_paiement" type="date"></input>
+          <label className='label-paiement'>Date</label>
+          <input placeholder='Date ' className="date_paiement" type="date"></input>
         </div>
         <TextField
           className="date-expirat4"
