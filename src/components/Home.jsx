@@ -15,7 +15,7 @@ export default function Home () {
           <h3 className='tex'>Mon billet d'avion <br></br> <span className='texo'>en quelques clics ! </span> </h3>
             <button className='btn'><Link to="/inscription">S'inscrire</Link></button>
             <button className='btns'>
-            <i class="fa-solid fa-plane-departure"></i>
+      
              <Link to="/Reserve">Rechercher</Link></button>
            
         </div>
