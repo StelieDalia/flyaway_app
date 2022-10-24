@@ -7,6 +7,11 @@
   align-items: center;
   justify-content: space-evenly;
 }
+.btn-telecharger{
+  color: white;
+  text-decoration: none;
+  font-size: 4vw;
+}
 
 
 .destination{
@@ -129,6 +134,8 @@
         background-color: #1E4D9B;
         border-radius: 10vw 0px 10vw 0px ;
         border: none;
+        color: white;
+        text-decoration: none;
       }
       .ecrit-button{
         background-color: #1E4D9B;

@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import { Link } from "react-router-dom";
 import "./Ticket.css";
-import telechargement from "../images/icones/akar-icons_download.png";
+import ticket from "./img/ticket.pdf";
 
 export const Ticket = () => {
   return (
@@ -94,12 +94,11 @@ export const Ticket = () => {
           </div>
         </div>
 
-      <button className="buttons_tiquet">
-        <Link className="ecrit-button" to="/Telechargement">
-          Télécharger
-        </Link>
-        <i class="fa-solid fa-arrow-down-to-bracket"></i>
-      </button>
+      
+        <button className="buttons_tiquet">
+          <a className="btn-telecharger" href="./ticket.png" download>Telechargement</a>
+        </button>
+    
     </div>
   );
 };

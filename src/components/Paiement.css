@@ -7,6 +7,8 @@
 
 .date-expiration{
   display: flex;
+  flex-direction: column;
+  transform: translateY(2vw);
 }
 
 
@@ -26,7 +28,9 @@
     margin-right: 20vw;
   } */
  
-
+.label-paiement{
+  margin-bottom: 5vw;
+}
 .box{
   height: 80%;
   display: flex;
@@ -71,6 +75,7 @@
 .fa-plane-departure{
   color: white;
   font-size: 18px;
+  transform: translateX(1vw);
 }
  .ecrit-button{
     background-color: #1E4D9B;
